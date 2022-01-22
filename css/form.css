@@ -6,7 +6,7 @@ html input {
     display         : flex;
     flex-flow       : column wrap;
     align-content   : center;
-    background-color: aqua;
+    background-color: tomato;
     font-weight     : bold;
 }
 
@@ -28,7 +28,7 @@ form {
 }
 
 div {
-    margin: 20px;
+    margin         : 20px;
     display        : flex;
     justify-content: space-between;
     align-items    : center;
@@ -38,19 +38,23 @@ input {
     flex: auto;
 }
 
-label{
-    text-align: right;
-    width: 30%;
+label {
+    text-align  : right;
+    width       : 30%;
     margin-right: 2%;
 }
-button{
-    width: 70%;
-    margin: 0 auto;
-    margin-left: 70px;
-    padding: 20px;
+
+button {
+    width           : 70%;
+    margin          : 0 auto;
+    margin-left     : 70px;
+    padding         : 20px;
     background-color: thistle;
 }
-label,input,button{
-    font-size: 16px;
+
+label,
+input,
+button {
+    font-size  : 16px;
     line-height: 1.5;
 }
